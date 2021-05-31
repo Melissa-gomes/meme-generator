@@ -1,3 +1,5 @@
+
+
 h1{
     text-align: center;
 }
@@ -8,21 +10,24 @@ h1{
    background-color: white;
     border: 1px solid black;
     position: relative;
+    margin: auto;
 
 }
 .caixa{
     display: inline-block;
+    margin: 20px;
     
 }
 .caixa2{
     display: inline-block;
+    margin: 20px;
 }
+
 #meme-image{
     width:350px;
     height:400px;
     background: white;
     position: relative;
-
 }
 
  #meme-text{
@@ -53,7 +58,7 @@ h1{
     padding: 10px;
     background-color:blue;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: rudiment;
     margin: 12px;
     border-radius: 5px;
 }
@@ -65,4 +70,44 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     margin: 12px;
     border-radius: 5px;
+}
+
+body{
+    background-image: url("agr.jpg");
+}
+
+h1{
+    color:yellow ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+.cd{
+    display: inline-block;
+    
+}
+.aqui{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.memes{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border: 2px solid black;
+
+}
+
+p{
+     color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h3{
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }

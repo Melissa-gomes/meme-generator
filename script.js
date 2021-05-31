@@ -19,6 +19,7 @@ function aparecerImagem (event) {
      tagImg.src=URL.createObjectURL(event.target.files[0]);
     
 }
+
 function vermelho (){
     containerDoMeme.style.border= "3px dashed red";
 }
@@ -33,3 +34,14 @@ function verde (){
     containerDoMeme.style.border= "6px groove green";
 }
 botaoVerde.addEventListener("click", verde);
+
+
+let memeAqui = document.querySelector(".meme")
+function memePronto (){
+    let selecao = document.querySelector(".selecionado");
+    if(selecao !== null){
+        selecao.classList.remove("selecionado");
+    }
+    event.target.classList.add("selecionado");
+}
+memeAqui.addEventListener("click", memePronto);
